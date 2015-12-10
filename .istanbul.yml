@@ -1,0 +1,3 @@
+instrumentation:
+  default-exclues: true
+  excludes: ["**/mocks/**", "**/errors**", "**/db/**, **/config/**"]

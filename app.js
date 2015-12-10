@@ -2,6 +2,7 @@
 require('dotenv').load()
 var hapi = require('hapi')
 var commonRoutes = require('./routes/commonRoutes')
+var serveRoutes = require('./routes/serveRoutes')
 var config = require('./config/config')
 var swagger = require('hapi-swagger/package')
 var server = new hapi.Server()

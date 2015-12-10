@@ -22,7 +22,6 @@ var leagueIdSchema = new Schema({
 
 var LeagueId = mongoose.model('leagueids', leagueIdSchema)
 
-
 var models = {
   LeagueId: LeagueId
 }
